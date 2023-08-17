@@ -1,9 +1,9 @@
-/* 
+/*
 ┌─┐┬┌┬┐┌─┐┬  ┌─┐
-└─┐││││├─┘│  ├┤ 
+└─┐││││├─┘│  ├┤
 └─┘┴┴ ┴┴  ┴─┘└─┘
-┌─┐┌─┐─┐ ┬      
-├┤ │ │┌┴┬┘      
+┌─┐┌─┐─┐ ┬
+├┤ │ │┌┴┬┘
 └  └─┘┴ └─
 
 by Miguel Avila
@@ -11,7 +11,7 @@ by Miguel Avila
 */
 
 /*
- 
+
 ┌─┐┌─┐┌┐┌┌─┐┬┌─┐┬ ┬┬─┐┌─┐┌┬┐┬┌─┐┌┐┌
 │  │ ││││├┤ ││ ┬│ │├┬┘├─┤ │ ││ ││││
 └─┘└─┘┘└┘└  ┴└─┘└─┘┴└─┴ ┴ ┴ ┴└─┘┘└┘
@@ -19,7 +19,7 @@ by Miguel Avila
 */
 
 :root {
-  --sfwindow: #19171a;
+  --sfwindow: #141414;
   --sfsecondary: #201e21;
 }
 
@@ -30,16 +30,16 @@ by Miguel Avila
 /* want to show the URL Bar    */
 /*─────────────────────────────*/
 
-.urlbarView {
-  display: none !important;
-}
+/* .urlbarView { */
+/*   display: none !important; */
+/* } */
 
 /*─────────────────────────────*/
 
-/* 
+/*
 ┌─┐┌─┐┬  ┌─┐┬─┐┌─┐
 │  │ ││  │ │├┬┘└─┐
-└─┘└─┘┴─┘└─┘┴└─└─┘ 
+└─┘└─┘┴─┘└─┘┴└─└─┘
 */
 
 /* Tabs colors  */
@@ -76,11 +76,11 @@ by Miguel Avila
   background-color: var(--sfwindow) !important;
 }
 
-/* 
+/*
 
-┌┬┐┌─┐┬  ┌─┐┌┬┐┌─┐            
- ││├┤ │  ├┤  │ ├┤             
-─┴┘└─┘┴─┘└─┘ ┴ └─┘            
+┌┬┐┌─┐┬  ┌─┐┌┬┐┌─┐
+ ││├┤ │  ├┤  │ ├┤
+─┴┘└─┘┴─┘└─┘ ┴ └─┘
 ┌─┐┌─┐┌┬┐┌─┐┌─┐┌┐┌┌─┐┌┐┌┌┬┐┌─┐
 │  │ ││││├─┘│ ││││├┤ │││ │ └─┐
 └─┘└─┘┴ ┴┴  └─┘┘└┘└─┘┘└┘ ┴ └─┘
@@ -92,9 +92,21 @@ by Miguel Avila
   display: none;
 }
 
-.tabbrowser-tab:not([pinned]) .tab-icon-image {
-  display: none !important;
-}
+/* .tabbrowser-tab:not([pinned]) .tab-icon-image { */
+/*   opacity: 0 !important; */
+/*   transition: 0.5s !important; */
+/*   width: 0px !important; */
+/* } */
+/**/
+/* .tabbrowser-tab:not([pinned]):hover .tab-icon-image { */
+/*   opacity: 100 !important; */
+/*   transition: 0.5s !important; */
+/*   display: inline-block !important; */
+/* } */
+/**/
+/* .tabbrowser-tab:not([pinned]):hover .tab-icon-image { */
+/*   width: 16px !important; */
+/* } */
 
 #nav-bar:not([tabs-hidden='true']) {
   box-shadow: none;
@@ -164,15 +176,15 @@ toolbarbutton.bookmark-item:not(.subviewbutton) {
 #pageActionButton,
 #pageActionSeparator,
 #tabs-newtab-button,
-#back-button,
-#PanelUI-button,
-#forward-button,
+/* #back-button, */
+/* #PanelUI-button, */
+/* #forward-button, */
 .tab-secondary-label {
   display: none !important;
 }
 
 .urlbarView-url {
-  color: #dedede !important;
+  color: #e1e1e1 !important;
 }
 
 /* Disable elements  */
