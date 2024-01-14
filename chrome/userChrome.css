@@ -203,10 +203,7 @@ toolbarbutton.bookmark-item:not(.subviewbutton) {
 #context-sendlinktodevice,
 #context-searchselect,
 #context-sendimage,
-#context-print-selection {
-  display: none !important;
-}
-
+#context-print-selection,
 #context_bookmarkTab,
 #context_moveTabOptions,
 #context_sendTabToDevice,
